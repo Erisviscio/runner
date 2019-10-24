@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e534af664bc6adc40b50e14f8386fda0, type: 3}
+  m_Name: LevelConfig
+  m_EditorClassIdentifier: 
+  enemies:
+  - {fileID: 11400000, guid: 2345458182ec283449e7b44a56c721c8, type: 2}
+  - {fileID: 11400000, guid: 553674be96449f341ab506c77c1f1e47, type: 2}
+  - {fileID: 11400000, guid: 3cbd5923dc1623241b8fb3e826d193e1, type: 2}
+  spawnRate: 1
+  increaseRatyBy: 0
+  maxHealth: 3
